@@ -1,0 +1,79 @@
+html, body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    height: 100%;
+    min-width: 100%;
+    font-size: 13px;
+    color: #404040;
+    direction: ltr;
+    -webkit-text-size-adjust: none;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+
+.content {
+    padding: 44px 44px;
+}
+
+.main {
+    padding-bottom: 100px;
+}
+
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+
+.h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.frame {
+    background-color: #f7f7f7;
+    padding: 10px 25px;
+    margin: 0 auto;
+    width: 600px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile {
+}
+
+.section {
+    border-top: 1px solid #dedede;
+}
+
+.section h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
