@@ -69,13 +69,13 @@ html, body {
     font-style: italic;
 }
 
-.skills h2 {
+#skills h2 {
     clear: both;
     float: left;
     width: 25%;
 }
 
-.skills p {
+#skills p {
     float: right;
     width: 72.5%;
 }
